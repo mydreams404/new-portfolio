@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import { ReactP5Wrapper } from "react-p5-wrapper";
+
+import "./designer.css";
+import Title from "./components/Title";
+import NavTab from "./components/NavTab";
+import Underline from "./components/Underline";
+
+// import About from "./components/About";
+import Particles from "./components/Particles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div id="particle-container">
+        <Particles />
+      </div>
+      <Title />
+      <NavTab />
+      <div id="line-container">
+        <Underline />
+      </div>
+
+      {/* <About /> */}
     </div>
   );
 }
