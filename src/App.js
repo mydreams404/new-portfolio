@@ -1,4 +1,5 @@
 // import { ReactP5Wrapper } from "react-p5-wrapper";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import "./designer.css";
 import Title from "./components/Title";
@@ -19,17 +20,20 @@ function App() {
         <Particles />
       </div>
       <Title />
-      <div class="tab-container">
-        <NavTab />
-      </div>
-      <div id="line-container">
-        <Underline />
-      </div>
-
-      <About />
-      <Works />
-      <Gallery />
-      <Contact />
+      <Router>
+        <div class="tab-container">
+          <NavTab />
+        </div>
+      <Routes>
+        <Route path="/about" component={About} /> 
+        <Route path="/works" component={Works} /> 
+        <Route path="/gallery" component={Gallery} /> 
+        <Route path="/contact" component={Contact} /> 
+      </Routes>
+      </Router>
+      {/* <div id="line-container">
+      <Underline />
+      </div> */}
     </div>
   );
 }

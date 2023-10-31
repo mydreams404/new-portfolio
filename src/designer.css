@@ -94,7 +94,7 @@ ul {
 }
 
 a.link-underline {
-  margin: 20px;
+  /* margin: 20px; */
   font-size: 22px;
   position: relative;
   font-weight: bold;
@@ -105,7 +105,7 @@ a.link-underline:before {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: 0;
+  bottom: 70px;
   left: 0;
   background-color: var(--coral);
   visibility: hidden;
@@ -128,8 +128,19 @@ a.link-underline:hover:before {
   margin-left: 10%;
   font-size: 70px;
 } */
+
+.section {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Initially off-screen to the right */
+  width: 100%;
+  height: 100%;
+  transition: right 0.3s; /* Add a transition effect for smooth sliding */
+}
+
 .content {
   pointer-events: none;
+  right: 0;
   opacity: 0;
   animation-name: menu-load;
   /* animation-delay: 3s; */
@@ -309,11 +320,11 @@ a.link-underline:hover:before {
   /* margin-top:5%; */
 }
 
-.tablink:hover {
+/* .tablink:hover {
   border-color: var(--lightblue);
   background-color: rgba(168, 235, 237, 0.15);
   transition-duration: 0.5s;
-}
+} */
 
 .lightToggle {
   z-index: 2;

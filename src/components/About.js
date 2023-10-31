@@ -1,8 +1,19 @@
+import React, { useState } from "react";
+
 import CodeChart from "./CodeChart";
 
 const About = () => {
+  
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleSelection = () => {
+    setIsActive(!isActive)
+  }
+
   return (
-    <div class="content" id="about-content">
+    <div 
+      className={`section ${isActive ? "content" : ''}` }
+      id="about-content" onClick={toggleSelection}>
       <svg
         id="content-header"
         width="297"

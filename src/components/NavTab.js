@@ -2,22 +2,22 @@ const NavTab = () => {
   return (
     <div>
       <div class="tab-container">
-        <a href="#about-content">
+        <a class="link-underline" href="/about">
           <button class="tablink" id="about">
             about me.
           </button>
         </a>
-        <a href="#works-content">
+        <a class="link-underline" href="works">
           <button class="tablink" id="works">
             things i've done.
           </button>
         </a>
-        <a href="#gallery-content">
+        <a class="link-underline" href="gallery">
           <button class="tablink" id="gallery">
             gallery.
           </button>
         </a>
-        <a href="#contact-content">
+        <a class="link-underline" href="contact">
           <button class="tablink" id="contact">
             get in touch.
           </button>
