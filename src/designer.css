@@ -267,7 +267,6 @@ a.link-underline:hover:before {
   /*make a rect with same bg colour?*/
   background-color: var(--background-color);
   z-index: 1;
-  position: -webkit-sticky;
   position: sticky;
   top: 0%;
   height: 50px;

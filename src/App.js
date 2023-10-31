@@ -5,7 +5,11 @@ import Title from "./components/Title";
 import NavTab from "./components/NavTab";
 import Underline from "./components/Underline";
 
-// import About from "./components/About";
+import About from "./components/About";
+import Works from "./components/Works";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+
 import Particles from "./components/Particles";
 
 function App() {
@@ -15,12 +19,17 @@ function App() {
         <Particles />
       </div>
       <Title />
-      <NavTab />
+      <div class="tab-container">
+        <NavTab />
+      </div>
       <div id="line-container">
         <Underline />
       </div>
 
-      {/* <About /> */}
+      <About />
+      <Works />
+      <Gallery />
+      <Contact />
     </div>
   );
 }

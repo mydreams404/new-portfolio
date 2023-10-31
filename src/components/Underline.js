@@ -6,14 +6,14 @@ export default function Underline(p) {
     var x = p.windowWidth;
 
     p.setup = function () {
-      let canvas = p.createCanvas(p.windowWidth, 1);
+      let canvas = p.createCanvas(p.windowWidth, 50);
       // canvas.parent('line-container');
       p.background(0, 0);
     };
 
     p.draw = function () {
       p.stroke("#a8ebed");
-      p.strokeWeight(3);
+      p.strokeWeight(0.1);
       p.line(x, 1, p.windowWidth, 1);
       if (x > 0) x -= 5;
     };

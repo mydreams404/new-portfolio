@@ -1,4 +1,4 @@
-// import Chart from "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4";
+import CodeChart from "./CodeChart";
 
 const About = () => {
   return (
@@ -39,27 +39,31 @@ const About = () => {
       </svg>
       <h3>My name is Yukari Connelley.</h3>
       <p>
-        {" "}
         I’m a fresh graduate of the University of Technology Sydney, holding a
         Bachelor of Science in Information Technology (Majoring in Interaction
         Design) and Bachelor of Arts in International Studies (Majoring in
-        Japan).{" "}
+        Japan).
       </p>
       <p>
         My current goal is to find work where I can grow and develop my skills
         as a UX Designer or Software Developer. As long as it’s got to do with
         making things, I’m interested! If it’s got to do with technology, that’s
-        even better.{" "}
+        even better.
       </p>
       <p>
         Anyway, thank you for taking the time to look at my portfolio. Feel free
         to poke around or contact me with comments or queries.
       </p>
 
-      <div class="coding-stuff">
-      <p style="margin-left:35%"><i>My coding proficiency...</i></p>
-      <div class="chart-container" style="margin:auto;width:30%;"><canvas id="chart"></canvas></div>
-    </div>
+      {/* <div class="coding-stuff">
+        <p style="margin-left:35%">
+          <i>My coding proficiency...</i>
+        </p>
+        <div class="chart-container" style="margin:auto;width:30%;">
+          <canvas id="chart"></canvas>
+        </div>
+      </div> */}
+      <CodeChart />
     </div>
   );
 };
