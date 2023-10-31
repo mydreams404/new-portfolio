@@ -3,7 +3,7 @@ import '../designer.css';
 
 const Title = () => {
   return (
-    <div>
+    <div className="title-container">
       <LightToggle />
       <br />
       <svg

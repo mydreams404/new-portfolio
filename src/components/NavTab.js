@@ -4,22 +4,22 @@ const NavTab = () => {
       <div class="tab-container">
         <a href="#about-content">
           <button class="tablink" id="about">
-            ABOUT
+            about me.
           </button>
         </a>
         <a href="#works-content">
           <button class="tablink" id="works">
-            WORKS
+            things i've done.
           </button>
         </a>
         <a href="#gallery-content">
           <button class="tablink" id="gallery">
-            GALLERY
+            gallery.
           </button>
         </a>
         <a href="#contact-content">
           <button class="tablink" id="contact">
-            CONTACT
+            get in touch.
           </button>
         </a>
       </div>
