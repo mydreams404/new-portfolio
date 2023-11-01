@@ -1,27 +1,14 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const NavTab = () => {
   return (
     <div>
       <div class="tab-container">
-        <a class="link-underline" href="/about">
-          <button class="tablink" id="about">
-            about me.
-          </button>
-        </a>
-        <a class="link-underline" href="works">
-          <button class="tablink" id="works">
-            things i've done.
-          </button>
-        </a>
-        <a class="link-underline" href="gallery">
-          <button class="tablink" id="gallery">
-            gallery.
-          </button>
-        </a>
-        <a class="link-underline" href="contact">
-          <button class="tablink" id="contact">
-            get in touch.
-          </button>
-        </a>
+        <Link className="link-underline" id="about" to="/about">about.</Link>
+        <Link className="link-underline" id="works" to="/works">things i've done.</Link>
+        <Link className="link-underline" id="gallery" to="/gallery">gallery.</Link>
+        <Link className="link-underline" id="contact" to="/contact">get in touch.</Link>
       </div>
       <div id="line-container" />
     </div>

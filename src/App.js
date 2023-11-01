@@ -25,10 +25,10 @@ function App() {
           <NavTab />
         </div>
       <Routes>
-        <Route path="/about" component={About} /> 
-        <Route path="/works" component={Works} /> 
-        <Route path="/gallery" component={Gallery} /> 
-        <Route path="/contact" component={Contact} /> 
+        <Route path="/about" element={About} /> 
+        <Route path="/works" element={Works} /> 
+        <Route path="/gallery" element={Gallery} /> 
+        <Route path="/contact" element={Contact} /> 
       </Routes>
       </Router>
       {/* <div id="line-container">

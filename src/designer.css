@@ -93,26 +93,33 @@ ul {
   margin-left: 10%;
 }
 
-a.link-underline {
-  /* margin: 20px; */
-  font-size: 22px;
+.link-underline {
+  margin-top: 10vh;
+  font-size: 30px;
   position: relative;
-  font-weight: bold;
+  font-family: "Georgia", Times, Serif;
+  width: 100%;
+  /* height: 20vh; */
+  cursor: pointer;
+  outline: none;
+  color: var(--coral);
+  opacity: 0;
+  padding: 10px;
 }
 
-a.link-underline:before {
+.link-underline:before {
   content: "";
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: 70px;
+  bottom: 0px;
   left: 0;
   background-color: var(--coral);
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
-a.link-underline:hover:before {
+.link-underline:hover:before {
   visibility: visible;
   width: 100%;
 }
@@ -298,12 +305,12 @@ a.link-underline:hover:before {
   top: 0;
   position: fixed;
   right: 0;
-  height: 80%;
+  height: 90vh;
 }
-
+/* 
 .tablink {
-  /* position: sticky;
-  top: 5%; */
+  position: sticky;
+  top: 5%;
   font-family: "Georgia", Times, Serif;
   background-color: rgba(0, 0, 0, 0);
   border: solid;
@@ -317,8 +324,8 @@ a.link-underline:hover:before {
   color: var(--coral);
   opacity: 0;
   font-size: 30px;
-  /* margin-top:5%; */
-}
+  margin-top:5%;
+} */
 
 /* .tablink:hover {
   border-color: var(--lightblue);
