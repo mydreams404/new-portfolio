@@ -1,6 +1,6 @@
 const Works = () => {
   return (
-    <div class="content" id="works-content">
+    <div className="content" id="works-content">
       <svg
         id="content-header"
         width="346"

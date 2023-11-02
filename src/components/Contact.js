@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div class="content" id="contact-content">
+    <div className="content" id="contact-content">
       <svg
         id="content-header"
         width="459"

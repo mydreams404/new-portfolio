@@ -430,6 +430,32 @@ ul {
   transition: 0.2s;
 }
 
+.page-enter {
+  animation: slide-in 0.5s forwards;
+}
+
+.page-exit {
+  animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
 @keyframes menu-load {
   from {
     opacity: 0;

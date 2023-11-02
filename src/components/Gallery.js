@@ -1,6 +1,6 @@
 const Gallery = () => {
   return (
-    <div class="content" id="gallery-content">
+    <div className="content" id="gallery-content">
       <svg
         id="content-header"
         width="459"
