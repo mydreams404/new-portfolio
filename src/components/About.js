@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="page-enter">
+    <div className="page-enter section">
       <svg
         id="content-header"
         width="297"
@@ -37,6 +37,29 @@ const About = () => {
           stroke-width="1.5"
         />
       </svg>
+      <p>
+        Hello there! I'm Yukari, a fusion of creativity and technology as a
+        Software/Creative Engineer. With a passion for the digital arts and a
+        Bachelor's degree in IT and International Studies, I've woven my journey
+        through various tech landscapes. My expertise spans from crafting
+        intricate UI/UX designs in Figma to breathing life into data with
+        Python, JavaScript, and SQL. 
+        <br /><br />My three-year stint as a Technical Support
+        Officer at tech2 polished my problem-solving skills, maintaining a
+        stellar 95% KPI and customer satisfaction rate. The digital realm at
+        Lendlease saw me evolve through roles as a Data Analyst, Product Manager,
+        and Software Engineer, where I automated workflows and created
+        company-wide dashboards, turning data into storytelling.
+        <br /><br />I see software as a digital canvas where code is my paint, the IDE
+        my brush, and the user, my audience. This artistic approach drives me to
+        innovate and create digital experiences that are not only functional but
+        also aesthetically pleasing and user-centric. Outside of work, my life
+        is a tapestry of creative pursuits. Whether it’s playing music, drawing,
+        photography, or even knitting, I find joy in all forms of art. This
+        blend of technical expertise and artistic passion makes me unique in my
+        field, and I am always eager to bring this dynamic energy to every
+        project I undertake.
+      </p>
     </div>
   );
 };

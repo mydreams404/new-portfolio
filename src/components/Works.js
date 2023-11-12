@@ -1,6 +1,6 @@
 const Works = () => {
   return (
-    <div className="content" id="works-content">
+    <div className="page-enter section">
       <svg
         id="content-header"
         width="346"
@@ -35,6 +35,23 @@ const Works = () => {
           stroke-width="1.5"
         />
       </svg>
+      <ul>
+        <li>Automation (PPI and Power Automate)</li>
+        <li>Discord bot</li>
+        <li>AC Radio</li>
+        <li>Gen AI DnD Builder</li>
+        <li>BI Dev Work</li>
+      </ul>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
     </div>
   );
 };

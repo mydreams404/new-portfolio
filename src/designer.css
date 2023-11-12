@@ -137,12 +137,10 @@ ul {
 } */
 
 .section {
-  position: fixed;
-  top: 0;
-  right: -100%; /* Initially off-screen to the right */
-  width: 100%;
-  height: 100%;
-  transition: right 0.3s; /* Add a transition effect for smooth sliding */
+  margin-top: 10%;
+  margin-right: 30%;
+  /* margin-left: 10%; */
+  position: absolute;
 }
 
 .content {
@@ -214,6 +212,7 @@ ul {
   position: absolute;
   top: 0;
   pointer-events: auto;
+  z-index: -1;
 }
 
 #title-container {
@@ -242,7 +241,7 @@ ul {
   height: 80vh;
   fill: transparent;
   /* transform: translate(-50%, 0%); */
-  animation: fill-title ease 10s forwards 6s;
+  animation: fill-title ease 10s forwards 3s;
 }
 
 #yukari path:nth-child(1) {
@@ -254,31 +253,31 @@ ul {
 #yukari path:nth-child(2) {
   stroke-dasharray: 508px;
   stroke-dashoffset: 508px;
-  animation: line-animation 2s ease forwards 1s;
+  animation: line-animation 2s ease forwards 0.5s;
 }
 
 #yukari path:nth-child(3) {
   stroke-dasharray: 602px;
   stroke-dashoffset: 602px;
-  animation: line-animation 2s ease forwards 2s;
+  animation: line-animation 2s ease forwards 1s;
 }
 
 #yukari path:nth-child(4) {
   stroke-dasharray: 472px;
   stroke-dashoffset: 472px;
-  animation: line-animation 2s ease forwards 3s;
+  animation: line-animation 2s ease forwards 1.5s;
 }
 
 #yukari path:nth-child(5) {
   stroke-dasharray: 549px;
   stroke-dashoffset: 549px;
-  animation: line-animation 2s ease forwards 4s;
+  animation: line-animation 2s ease forwards 2s;
 }
 
 #yukari path:nth-child(6) {
   stroke-dasharray: 278px;
   stroke-dashoffset: 278px;
-  animation: line-animation 2s ease forwards 5s;
+  animation: line-animation 2s ease forwards 2.5s;
 }
 
 .title-container {
@@ -432,34 +431,39 @@ ul {
 
 .page-enter {
   transform: translateX(100%);
+  opacity: 0;
 }
 .page-enter-active {
-  transform: translateX(0);
-  transition: transform 3s ease-in-out;
+  animation: slide-in 3s forwards;
+  animation-delay: 0.5s;
 }
 .page-exit {
   transform: translateX(0);
+  opacity: 1;
 }
 .page-exit-active {
-  transform: translateX(-100%);
-  transition: transform 3s ease-in-out;
+  animation: slide-out 3s forwards;
 }
 
 @keyframes slide-in {
   from {
     transform: translateX(100%);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes slide-out {
   from {
     transform: translateX(0);
+    opacity: 1;
   }
   to {
     transform: translateX(-100%);
+    opacity: 0;
   }
 }
 
