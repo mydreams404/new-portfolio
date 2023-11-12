@@ -410,12 +410,11 @@ ul {
   animation-fill-mode: forwards;
 }
 
-#btn-top {
+.btn-home {
   position: fixed;
-  bottom: 20px;
-  right: 5%;
+  top: 20px;
+  left: 5%;
   z-index: 99;
-  display: none;
   cursor: pointer;
   background-color: rgba(168, 235, 237, 0);
   border: none;
@@ -424,7 +423,7 @@ ul {
   font-size: inherit;
 }
 
-#btn-top:hover {
+.btn-home:hover {
   opacity: 0.5;
   transition: 0.2s;
 }

@@ -12,6 +12,7 @@ import Title from "./components/Title";
 import NavTab from "./components/NavTab";
 import Underline from "./components/Underline";
 import LightToggle from "./components/LightToggle";
+import HomeButton from "./components/HomeButton";
 
 import ContentComponent from "./components/ContentComponent";
 import About from "./components/About";
@@ -48,6 +49,7 @@ function App() {
     <Router>
       <div>
         <LightToggle />
+        <HomeButton />
         <div id="particle-container">
           <Particles />
         </div>
