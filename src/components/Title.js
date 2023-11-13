@@ -1,4 +1,4 @@
-import '../designer.css';
+import "../designer.css";
 
 const Title = () => {
   return (

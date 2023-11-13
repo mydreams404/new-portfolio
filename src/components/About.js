@@ -38,7 +38,7 @@ const About = () => {
         />
       </svg>
       <p>
-        Hello there! I'm Yukari, a fusion of creativity and technology as a
+        Hi there! I'm Yukari, and I try to blend creativity and technology as a
         Software/Creative Engineer. With a passion for the digital arts and a
         Bachelor's degree in IT and International Studies, I've woven my journey
         through various tech landscapes. My expertise spans from crafting

@@ -52,7 +52,7 @@ export default function App() {
     let particles = [];
 
     p.setup = () => {
-      p.createCanvas(p.windowWidth*0.7, p.windowHeight*0.9);
+      p.createCanvas(p.windowWidth*0.7, p.windowHeight*0.99);
       for (let i = 0; i < p.windowWidth/15; i++) particles.push(new Particle(p));
     };
 

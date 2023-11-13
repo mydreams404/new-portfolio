@@ -42,16 +42,44 @@ const Works = () => {
         <li>Gen AI DnD Builder</li>
         <li>BI Dev Work</li>
       </ul>
+      <h3>Front End.</h3>
       <p>
-        {" "}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        mollit anim id est laborum."
       </p>
+      <h3>Back End.</h3>
+      <p>
+        <strong>Automation</strong>
+      </p>
+      <p>
+        In a dynamic step towards modernizing data management, I
+        spearheaded an automation project aimed at revolutionizing the data
+        ingestion process for a data visualization site. The primary objective
+        was to seamlessly transition from a manual, Excel-based system to an
+        automated solution, ensuring timely preparation, transformation, and
+        submission of data upon receipt. This initiative was not just about
+        efficiency; it was about reinventing how we handle data to unlock new
+        potentials in accuracy and speed. <br /><br />
+        The project unfolded in two distinct phases. Initially, I developed a
+        local solution using Python and Pandas, coupled with API post requests,
+        to validate the concept. Once proven effective, I shifted to a
+        cloud/serverless architecture, utilizing Google Cloud Platform (GCP)
+        services like Cloud Functions and Cloud Storage, along with Bitbucket
+        for continuous integration and deployment. The final piece was a
+        React-based frontend, hosted on Firebase, providing a sleek interface
+        for the automated system. This journey was a solo endeavor, marked by
+        iterative development and problem-solving. The result was a
+        transformative impact: saving dozens of hours previously lost in manual
+        processing and significantly reducing the margin for human error. This
+        project was a testament to the power of automation in streamlining
+        complex processes, a personal milestone in my career as an engineer.
+      </p>
+      <h3>Full Stack.</h3>
     </div>
   );
 };
